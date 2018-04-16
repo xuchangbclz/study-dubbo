@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+    xmlns:source="http://47.93.41.195/people"  
+    xsi:schemaLocation="  
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd  
+	http://47.93.41.195/people http://47.93.41.195/people.xsd"> 
+	
+	<!-- 命名空间xmlns:source可以命名为 xmlns:xxxx都可以，引用相对也要加上xxxx:people -->
+	<source:people id="person" name="zhangsan" age="20"></source:people>
+	
+</beans>
